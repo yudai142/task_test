@@ -27,7 +27,7 @@ Route::group(['prefix' => 'contact', 'middleware' => 'auth'], function(){
     // 'index', 'show'
 // ]);
 
-// Auth::routes();
+Auth::routes();
 
 
 
