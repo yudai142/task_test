@@ -13,7 +13,7 @@
                         </div>
                     @endif
                     showです
-                    <form method="get" action="">
+                    <form method="get" action="{{route('contact.edit', ['id' => $contact->id ])}}">
                     @csrf
                     {{ $contact->your_name }}
                     {{ $contact->title }}
