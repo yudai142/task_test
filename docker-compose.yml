@@ -6,7 +6,7 @@ services:
       - "8000:80"
     volumes:
       - ./docker/web/default.conf:/etc/nginx/conf.d/default.conf
-      - .:/var/www/html
+      - .:/var/www/task_test
   app:
     build: ./docker/php
     volumes:
