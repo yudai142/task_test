@@ -2,6 +2,7 @@
 
 namespace App\Services;
 
+<<<<<<< Updated upstream
 
 class CheckFormData
 {
@@ -42,5 +43,13 @@ class CheckFormData
         }
         return $age;
     }
+=======
+use Illuminate\Http\Request;
+use App\Models\ContactForm;
+use Illuminate\Support\Facades\DB;
+
+class ContactFormController extends Controller
+{
+>>>>>>> Stashed changes
 
 }
