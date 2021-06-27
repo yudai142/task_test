@@ -15,6 +15,7 @@
                     @endif
 
                     You are logged in!
+                    <a class="btn btn-primary" href="{{ url('/contact/index') }}">トップへ</a>
                 </div>
             </div>
         </div>
